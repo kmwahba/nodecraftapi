@@ -16,7 +16,7 @@ let games = [{ id: 1, name: "Feeding Frenzy", description: "Game about feeding f
 
 
 const app = express();
-const port = process.env.PORT || 6969;
+const port = process.env.PORT || 6965;
 app.use(cors({
   origin: ['http://localhost:5500', 'http://127.0.0.1:5500'], // Specify allowed origins
   credentials: true // Allow credentials (cookies)
